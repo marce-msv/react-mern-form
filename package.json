@@ -1,12 +1,16 @@
 {
-  "name": "tinpet",
+  "name": "mern-auth",
   "version": "1.0.0",
-  "description": "tinder for pets",
-  "main": "server.js",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server.js",
+    "server": "nodemon backend/server.js",
+    "client": "npm run dev --prefix frontend"
   },
-  "author": "Marcelo Suarez",
+  "keywords": [],
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
